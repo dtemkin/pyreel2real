@@ -63,8 +63,8 @@ class database(object):
         else:
             pass
         
-        t = columns[tablename]
-        stmt = """CREATE TABLE IF NOT EXISTS %s(%s);""" % (name, ",".join(t))
+        t = self.columns()[tablename]
+        stmt = """CREATE TABLE IF NOT EXISTS %s(%s);""" % (tablename, ",".join(t))
         try:
             self.curs.execute(stmt)
         except Exception as err:
@@ -75,7 +75,7 @@ class database(object):
             return True
     
     
-    def insert(tablename, row):
+    def insert(self, tablename, row):
         if self.curs is None:
             self.curs = self.conn.cursor()
         else:
@@ -84,7 +84,7 @@ class database(object):
             
         self.mktable(tablename)
         valholders = ",".join([range("?"*len(row))])
-        stmt = '''INSERT INTO %s VALUES (%s);''' % tablename, valholders
+        stmt = '''INSERT INTO %s VALUES (%s);''' % (tablename, valholders)
         try:
             self.curs.execute(stmt)
         except Exception as err:
@@ -112,7 +112,7 @@ class database(object):
         else:
             pass
         if sqlite3.complete_statement(stmt):
-            return self.get_rows(self.curs, stmt, nrows)    
+            return self.get_rows(self.curs, stmt)
         else:
             print("statment invalid: %s " % stmt)
         
@@ -134,35 +134,36 @@ class database(object):
                         except Exception as err:
                             print(err)
                         else:
-                            return len(ID)       
+                            ID = len(ID)
                     else:
-                        return ID
+                        pass
                 elif row.lower() == "first":
                     ID = cursor.fetchone()[0]
                     cursor.close()
-                    return ID
                 elif row.lower() == "all":
                     ID = cursor.fetchall()
                     cursor.close()
-                    return ID
                 elif row.lower() == "top5":
-                    ID = curs.fetchmany(5)[0]
-                
+                    ID = self.curs.fetchmany(5)[0]
+
             elif type(row) is int:
                 ID = cursor.fetchmany(row)[0]
-                return ID
+                cursor.close()
             elif type(row) is tuple:
                 ID = cursor.fetchmany(30)
+                cursor.close()
                 if row[1] in ID:
-                    return True
+                    ID = True
                 else:
-                    return False
+                    ID = False
+
             else:
                 print("'row' argument invalid. see docs.")
-            
+
+            return ID
         
         
-    def close(cursor=True, connection=False):
+    def close(self, cursor=True, connection=False):
         if cursor is True:
             try:
                 self.curs.close()
@@ -173,7 +174,7 @@ class database(object):
                 self.curs = None
                 print("Cursor closed.")
         else:
-            if curs is not None:
+            if self.curs is not None:
                 print("Cursor is Open.")
             else:
                 pass
