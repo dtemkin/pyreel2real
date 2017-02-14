@@ -1,4 +1,3 @@
-.idea/
-.git/
-drafts/
-__pycache__/
+.idea
+drafts
+__pycache__
