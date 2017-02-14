@@ -1,0 +1,225 @@
+l end="100" start="98" name="CJC"/>
+                    <label end="107" start="102" name="VVD"/>
+                    <label end="113" start="109" name="CRD"/>
+                    <label end="120" start="115" name="NN2"/>
+                    <label end="123" start="122" name="PRP"/>
+                    <label end="125" start="125" name="AT0"/>
+                    <label end="135" start="127" name="AJ0"/>
+                    <label end="141" start="137" name="NN1"/>
+                    <label end="144" start="143" name="PRF"/>
+                    <label end="151" start="146" name="NN1"/>
+                    <label end="154" start="153" name="PRP"/>
+                    <label end="159" start="156" name="NP0"/>
+                    <label end="165" start="161" name="NP0"/>
+                    <label end="167" start="167" name="PUN"/>
+                    <label end="173" start="169" name="NN1"/>
+                    <label end="180" start="175" name="NP0"/>
+                    <label end="182" start="182" name="PUN"/>
+                </layer>
+            </annotationSet>
+            <annotationSet cDate="01/06/2003 06:40:46 PST Mon" status="MANUAL" ID="46448">
+                <layer rank="1" name="FE">
+                    <label cBy="428" feID="475" end="120" start="109" name="Victim"/>
+                    <label cBy="296" feID="474" end="62" start="0" name="Perpetrator"/>
+                    <label cBy="296" feID="561" end="180" start="122" name="Time"/>
+                </layer>
+                <layer rank="1" name="GF">
+                    <label end="120" start="109" name="Obj"/>
+                    <label end="62" start="0" name="Ext"/>
+                    <label end="180" start="122" name="Dep"/>
+                </layer>
+                <layer rank="1" name="PT">
+                    <label end="120" start="109" name="NP"/>
+                    <label end="62" start="0" name="NP"/>
+                    <label end="180" start="122" name="PP"/>
+                </layer>
+                <layer rank="1" name="Sent">
+                    <label end="0" start="0" name="reexamine"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label cBy="103" end="107" start="102" name="Target"/>
+                </layer>
+                <layer rank="1" name="Verb"/>
+                <layer rank="1" name="Other"/>
+            </annotationSet>
+        </sentence>
+        <sentence sentNo="0" aPos="31905723" ID="198447">
+            <text>The gang were convicted of robbing Barclays Bank in Kelvedon , Essex , in 1989 and the Tesco superstore at Copdock , near Ipswich , Suffolk , in 1991 . </text>
+            <annotationSet cDate="01/06/2003 06:40:46 PST Mon" status="UNANN" ID="46449">
+                <layer rank="1" name="BNC">
+                    <label end="2" start="0" name="AT0"/>
+                    <label end="7" start="4" name="NN1"/>
+                    <label end="12" start="9" name="VBD"/>
+                    <label end="22" start="14" name="AJ0-VVN"/>
+                    <label end="25" start="24" name="PRF"/>
+                    <label end="33" start="27" name="VVG"/>
+                    <label end="42" start="35" name="NP0"/>
+                    <label end="47" start="44" name="NP0"/>
+                    <label end="50" start="49" name="PRP"/>
+                    <label end="59" start="52" name="NP0"/>
+                    <label end="61" start="61" name="PUN"/>
+                    <label end="67" start="63" name="NP0"/>
+                    <label end="69" start="69" name="PUN"/>
+                    <label end="72" start="71" name="PRP"/>
+                    <label end="77" start="74" name="CRD"/>
+                    <label end="81" start="79" name="CJC"/>
+                    <label end="85" start="83" name="AT0"/>
+                    <label end="91" start="87" name="NN1-NP0"/>
+                    <label end="102" start="93" name="NN1-VVB"/>
+                    <label end="105" start="104" name="PRP"/>
+                    <label end="113" start="107" name="NN1-NP0"/>
+                    <label end="115" start="115" name="PUN"/>
+                    <label end="120" start="117" name="PRP"/>
+                    <label end="128" start="122" name="NP0"/>
+                    <label end="130" start="130" name="PUN"/>
+                    <label end="138" start="132" name="NP0"/>
+                    <label end="140" start="140" name="PUN"/>
+                    <label end="143" start="142" name="PRP"/>
+                    <label end="148" start="145" name="CRD"/>
+                    <label end="150" start="150" name="PUN"/>
+                </layer>
+            </annotationSet>
+            <annotationSet cDate="01/06/2003 06:40:46 PST Mon" status="MANUAL" ID="46450">
+                <layer rank="1" name="FE">
+                    <label cBy="428" feID="477" end="67" start="35" name="Source"/>
+                    <label cBy="296" feID="561" end="77" start="71" name="Time"/>
+                    <label cBy="605" feID="474" end="7" start="0" name="Perpetrator"/>
+                </layer>
+                <layer rank="1" name="GF">
+                    <label end="67" start="35" name="Obj"/>
+                    <label end="77" start="71" name="Dep"/>
+                    <label end="7" start="0" name="Ext"/>
+                </layer>
+                <layer rank="1" name="PT">
+                    <label end="67" start="35" name="NP"/>
+                    <label end="77" start="71" name="PP"/>
+                    <label end="7" start="0" name="NP"/>
+                </layer>
+                <layer rank="1" name="Sent"/>
+                <layer rank="1" name="Target">
+                    <label cBy="103" end="33" start="27" name="Target"/>
+                </layer>
+                <layer rank="1" name="Verb"/>
+                <layer rank="1" name="Other"/>
+            </annotationSet>
+        </sentence>
+        <sentence sentNo="0" aPos="39497332" ID="198450">
+            <text>Duncan Orr Ewing , an RSPB officer , recently said egg thieves were now using climbing spikes to rob nests in high trees . </text>
+            <annotationSet cDate="01/06/2003 06:40:46 PST Mon" status="UNANN" ID="46455">
+                <layer rank="1" name="BNC">
+                    <label end="5" start="0" name="NP0"/>
+                    <label end="9" start="7" name="NP0"/>
+                    <label end="15" start="11" name="NP0"/>
+                    <label end="17" start="17" name="PUN"/>
+                    <label end="20" start="19" name="AT0"/>
+                    <label end="25" start="22" name="NN1"/>
+                    <label end="33" start="27" name="NN1"/>
+                    <label end="35" start="35" name="PUN"/>
+                    <label end="44" start="37" name="AV0"/>
+                    <label end="49" start="46" name="AJ0-VVD"/>
+                    <label end="53" start="51" name="NN1"/>
+                    <label end="61" start="55" name="NN2"/>
+                    <label end="66" start="63" name="VBD"/>
+                    <label end="70" start="68" name="AV0"/>
+                    <label end="76" start="72" name="VVG"/>
+                    <label end="85" start="78" name="NN1"/>
+                    <label end="92" start="87" name="VVZ"/>
+                    <label end="95" start="94" name="TO0"/>
+                    <label end="99" start="97" name="VVI"/>
+                    <label end="105" start="101" name="NN2"/>
+                    <label end="108" start="107" name="PRP"/>
+                    <label end="113" start="110" name="AJ0"/>
+                    <label end="119" start="115" name="NN2"/>
+                    <label end="121" start="121" name="PUN"/>
+                </layer>
+            </annotationSet>
+            <annotationSet cDate="01/06/2003 06:40:46 PST Mon" status="MANUAL" ID="46456">
+                <layer rank="1" name="FE">
+                    <label cBy="296" feID="474" end="61" start="51" name="Perpetrator"/>
+                    <label cBy="296" feID="477" end="119" start="101" name="Source"/>
+                </layer>
+                <layer rank="1" name="GF">
+                    <label end="61" start="51" name="Ext"/>
+                    <label end="119" start="101" name="Obj"/>
+                </layer>
+                <layer rank="1" name="PT">
+                    <label end="61" start="51" name="NP"/>
+                    <label end="119" start="101" name="NP"/>
+                </layer>
+                <layer rank="1" name="Sent">
+                    <label end="0" start="0" name="reexamine"/>
+                </layer>
+                <layer rank="2" name="FE">
+                    <label cBy="296" feID="476" end="53" start="51" name="Goods"/>
+                </layer>
+                <layer rank="1" name="Target">
+                    <label cBy="103" end="99" start="97" name="Target"/>
+                </layer>
+                <layer rank="1" name="Verb"/>
+                <layer rank="1" name="Other"/>
+            </annotationSet>
+        </sentence>
+        <sentence sentNo="0" aPos="58474843" ID="198452">
+            <text>I robbed a bloke in the park with two of me mates , a lad and a lass . </text>
+            <annotationSet cDate="01/06/2003 06:40:46 PST Mon" status="UNANN" ID="46459">
+                <layer rank="1" name="BNC">
+                    <label end="0" start="0" name="PNP"/>
+                    <label end="7" start="2" name="VVD"/>
+                    <label end="9" start="9" name="AT0"/>
+                    <label end="15" start="11" name="NN1"/>
+                    <label end="18" start="17" name="PRP"/>
+                    <label end="22" start="20" name="AT0"/>
+                    <label end="27" start="24" name="NN1"/>
+                    <label end="32" start="29" name="PRP"/>
+                    <label end="36" start="34" name="CRD"/>
+                    <label end="39" start="38" name="PRF"/>
+                    <label end="42" start="41" name="PNP"/>
+                    <label end="48" start="44" name="VVZ"/>
+                    <label end="50" start="50" name="PUN"/>
+                    <label end="52" start="52" name="AT0"/>
+                    <label end="56" start="54" name="NN1"/>
+                    <label end="60" start="58" name="CJC"/>
+                    <label end="62" start="62" name="AT0"/>
+                    <label end="67" start="64" name="NN1"/>
+                    <label end="69" start="69" name="PUN"/>
+                </layer>
+            </annotationSet>
+            <annotationSet cDate="01/06/2003 06:40:47 PST Mon" status="MANUAL" ID="46460">
+                <layer rank="1" name="FE">
+                    <label cBy="428" feID="474" end="0" start="0" name="Perpetrator"/>
+                    <label cBy="428" feID="475" end="15" start="9" name="Victim"/>
+                    <label cBy="296" feID="560" end="27" start="17" name="Place"/>
+                    <label cBy="605" feID="9082" end="67" start="29" name="Co_participant"/>
+                </layer>
+                <layer rank="1" name="GF">
+                    <label end="0" start="0" name="Ext"/>
+                    <label end="15" start="9" name="Obj"/>
+                    <label end="27" start="17" name="Dep"/>
+                    <label end="67" start="29" name="Dep"/>
+                </layer>
+                <layer rank="1" name="PT">
+                    <label end="0" start="0" name="NP"/>
+                    <label end="15" start="9" name="NP"/>
+                    <label end="27" start="17" name="PP"/>
+                    <label end="67" start="29" name="PP"/>
+                </layer>
+                <layer rank="1" name="Sent"/>
+                <layer rank="1" name="Target">
+                    <label cBy="103" end="7" start="2" name="Target"/>
+                </layer>
+                <layer rank="1" name="Verb"/>
+                <layer rank="1" name="Other"/>
+            </annotationSet>
+        </sentence>
+        <sentence sentNo="0" aPos="62902159" ID="198454">
+            <text>Her sun was the biggest poacher -- he was a devil : he 'd rob your house in the middle of the day and let you see him ! </text>
+            <annotationSet cDate="01/06/2003 06:40:47 PST Mon" status="UNANN" ID="46463">
+                <layer rank="1" name="BNC">
+                    <label end="2" start="0" name="DPS"/>
+                    <label end="6" start="4" name="NN1"/>
+                    <label end="10" start="8" name="VBD"/>
+                    <label end="14" start="12" name="AT0"/>
+                    <label end="22" start="16" name="AJS"/>
+                    <label end="30" start="24" name="NN1"/>
+                    <label end="33" start="32" name="PUN"/>
+                    <label end="36" start="35" name="PNP"
