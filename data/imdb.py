@@ -1,154 +1,98 @@
-from requests import get as reqget
+from abc import ABCMeta
+from useragentx.useragent import spoof
+import requests
 from bs4 import BeautifulSoup as bsoup
-from json import loads as jsloads
-from useragent import platform
+import re
 
-from datetime import datetime as dt
+class Base(metaclass=ABCMeta):
 
-plat = platform()
-ua = plat.browser("Chrome", 0)
+    def __init__(self, ID):
+        self.url = 'http://www.imdb.com/title/%s' % ID
+        self.headers = {"user-agent":spoof().browser("Chrome", 0)}
 
-class moviedata:
-    
-    def __init__(self, srcid, release_year):
-        self.srcid = srcid
-        self.apiurl = 'http://www.omdbapi.com/?'
-        self.apiparams = {'i':srcid, 'type':'movie', 'y':release_year,
-                          'plot':'full','r':'json'}
-        self.baseurl = 'http://www.imdb.com/title'
-        self.xtra_urlreq = None
-        self.xtraurl = '/'.join([self.baseurl, self.srcid, '?ref_=fn_al_tt_1'])
+    def _parser(self, rawhtml, parser_lib):
+        raise NotImplementedError("Failed to implement html parser")
 
-    def _cleanstr(self, string):
-        s = string.replace('\n', '')
-        s = s.replace('$','')
-        s = s.replace(',','')
-        s = s.replace(' ','')
-        s = s.replace('(USA)','')
-        s = s.replace('(estimated)','')
-        s = s.replace('(','')
-        try:
-            f = float(s)
-        except ValueError:
-            return float(0)
-        else:
-            return f
+class BoxOffice(Base):
 
-    def _production(self):
-        data = []
-        if self.xtra_urlreq is None:
-            self.xtra_urlreq = reqget(self.xtraurl, headers={'user-agent':ua})
-        else:
-            try:
-                soup = bsoup(self.xtra_urlreq.text, 'html5lib')
-                orgs = soup.findAll('span',{'itemprop':'creator','itemscope':'','itemtype':'http://schema.org/Organization'})
-            except:
-                print("Oops Parser Problems, Skipping...")
-                data.append('N/A')
+
+    def __init__(self, ID, **kwargs):
+        super().__init__(ID=ID)
+
+    def _parser(self, rawhtml, parser_lib):
+        soup = bsoup(rawhtml, parser_lib)
+        mainblok = soup.find("div", {"class":"article", "id":"titleDetails"})
+
+        subbloks = mainblok.findAll("h4",{"class":"inline"})
+        pattrn = re.compile('\(.*?\)')
+        data = {"gross":0., "opening_weekend":0., "budget":0.}
+        for blk in subbloks:
+            heading = blk.get_text().replace(":","").replace(" ","_").lower()
+            if heading in ["opening_weekend","gross","budget"]:
+                txt = blk.next_element.next_element
+                txt = txt.strip().replace(",","")
+                if txt.find("$") > -1:
+                    val = re.sub(pattrn, "", txt.replace("$",""))
+                else:
+                    val = 0
+                data[heading.lower()] += float(val)
             else:
-                for org in orgs:
-                    coname = org.find('span',{'class':'itemprop','itemprop':'name'})
-                    data.append(coname.string)
-            return {'prodco':'|'.join(data)}
-    
-    def _boxoffice(self):
-        boxoffice_data = {'budget':None,'opn_wkend':None, 'gross':None, 'opn_pct_gross':None,'profit':None}
-        if self.xtra_urlreq is None:
-            self.xtra_urlreq = reqget(self.xtraurl, headers={'user-agent':ua})
-        else:
-            try:
-                soup = bsoup(self.xtra_urlreq.text, 'html5lib')
-                content = soup.findAll("h4",{"class":"inline"})
-            except:
-                print("Parsing Error")
                 pass
-            else:
-                for target in content:
-                    if target.string == 'Budget:':
-                        budget = target.nextSibling
-                        boxoffice_data['budget'] = self._cleanstr(budget)
-                    elif target.string == 'Opening Weekend:':
-                        opnwkend = target.nextSibling
-                        if '(US)' in opnwkend:
-                            boxoffice_data['opn_wkend'] = self._cleanstr(opnwkend)
-                        else:
-                            boxoffice_data['opn_wkend'] = None
-                    elif target.string == 'Gross:':
-                        gross = target.nextSibling
-                        boxoffice_data['gross'] = self._cleanstr(gross)
+
+        return self.add_calc_fields(data)
+
+    def add_calc_fields(self, vals_dict):
+        vals = vals_dict
+        if vals_dict["gross"] == float(0):
+            pct_of_gross = 0.
+        else:
+            pct_of_gross = float(vals_dict["opening_weekend"])/float(vals_dict["gross"])
+
+        net_income = float(vals_dict["gross"]) - float(vals_dict["budget"])
+        vals.update({"pct_of_gross": str(pct_of_gross), "net_income": str(net_income)})
+        return vals
+
+    def __call__(self, *args, **kwargs):
+        parserlib = kwargs.get("parser_lib", "html5lib")
+        url = '/'.join([self.url, '?ref_=fn_al_tt_1'])
+        req = requests.get(url, headers=self.headers)
+        data = self._parser(req.text, parser_lib=parserlib)
+        return data
+
+class Awards(Base):
+
+    def __init__(self, ID, **kwargs):
+        super().__init__(ID=ID)
+
+    def _parser(self, rawhtml, parser_lib, awardtypes=["oscar"]):
+        soup = bsoup(rawhtml, parser_lib)
+        mainblok = soup.find("div", {"id": "main"})
+        subbloks = mainblok.findAll("table", {"class":"awards"})
+        data = {}
+        for i in awardtypes:
+            data.update({"%s_won" % i:0, "%s_nominated" % i:0})
+        for blk in subbloks:
+            bodies = blk.findAll("tbody")
+            for body in bodies:
+                outcomes = body.findAll("td", {"class":"title_award_outcome"})
+                cats = body.findAll("span", {"class":"award_category"})
+                for i in range(len(cats)):
+                    if cats[i].get_text().lower() in awardtypes:
+                        data["oscar_%s" % (outcomes[i].find("b").get_text().lower())] += int(outcomes[i].attrs["rowspan"])
                     else:
                         pass
-        if boxoffice_data['gross'] > 0 and boxoffice_data['opn_wkend'] != None: 
-            try:
-                opnpct = round(float(boxoffice_data['opn_wkend']/boxoffice_data['gross']), 4)
-            except TypeError or ValueError:
-                boxoffice_data['opn_pct_gross'] = None
-            else:
-                boxoffice_data["opn_pct_gross"] = opnpct
+        return data
+
+
+    def __call__(self, *args, **kwargs):
+        awardss = kwargs.get("awardtypes", None)
+        parserlib = kwargs.get("parser_lib", "html5lib")
+        url = '/'.join([self.url, 'awards?ref_=tt_awd'])
+
+        req = requests.get(url, headers=self.headers)
+        if awardss is None:
+            data = self._parser(req.text, parser_lib=parserlib)
         else:
-            pass
+            data = self._parser(req.text, parser_lib=parserlib, awardtypes=[awardss])
 
-        if boxoffice_data['budget'] is not None:
-            try:
-                netearn = float(boxoffice_data['gross']) - float(boxoffice_data['budget'])
-            except TypeError or ValueError:
-                boxoffice_data['profit'] = None
-            else:
-                boxoffice_data['profit'] = netearn
-        else:
-            pass
-        
-        return dict(boxoffice_data)
-
-    def _awards(self):
-        url = '/'.join([self.baseurl, self.srcid, 'awards?ref_=tt_awd'])
-        urlreq = reqget(url, params=self.apiparams, headers={'user-agent':ua})
-
-        soup = bsoup(urlreq.text, 'html5lib')
-        main = soup.find('div',{'id':'main'})
-
-        award_year = main.find("a",{"class":"event_year"})
-        award_type = award_year.previousSibling
-        if award_type.strip() == 'Academy Awards, USA':
-            
-            content = soup.find("table",{"class":"awards","cellpadding":'5','cellspacing':'0'})
-            awards_ = content.findAll("td",{"class":"title_award_outcome"})
-
-            for award in awards_:
-                outcome = award.b.string
-                if outcome == 'Won':
-                    wins = award.attrs['rowspan']
-                elif outcome == "Nominated":
-                    noms = award.attrs['rowspan']
-                else:
-                    print('None Found')
-            return {'award_year':str(award_year.string).strip(),'oscar_wins':int(wins), 'oscar_noms':int(noms)}
-        else:
-            return {'award_year':'N/A','oscar_wins':0,'oscar_noms':0}
- 
-    def get(self):
-        apireq = reqget(self.apiurl, params=self.apiparams, headers={'user-agent':ua})
-        d = jsloads(apireq.text, encoding='utf-8')
-        prd = self._production()
-
-        datadict = {'langs':'|'.join(d["Language"].split(', ')),
-                    'countries':'|'.join(d['Country'].split(', ')),
-                    'duration':int(d['Runtime'].replace(' min', '')),
-                    'actors':'|'.join(d['Actors'].replace(' (characters)', '').split(', ')),
-                    'writers':'|'.join(d['Writer'].split(', ')),
-                    'directors':'|'.join(d['Director'].split(', ')),
-                    'imdb_votes':int(d['imdbVotes'].replace(',','')),
-                    'imdb_score':float(d['imdbRating']),
-                    'mpaa_rating':d['Rated'],
-                    'release_date':dt.strptime(d['Released'], "%d %b %Y").strftime("%Y%m%d"),
-                    'metascore':d['Metascore'],'poster_url':d["Poster"]}
-        
-        datadict.update(self._production())
-
-        datadict.update(self._boxoffice())
-        datadict.update(self._awards())
-
-        print("Got IMDB Data for %s" % d['Title'])
-        return datadict
-
-
+        return data

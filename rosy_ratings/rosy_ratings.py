@@ -4,10 +4,11 @@ Created on Wed Apr 13 2016
 
 @author: D. Temkin
 """
+import sys
+sys.path.append("../pyreel2real")
 from bs4 import BeautifulSoup as bsoup
 from collections import Counter
 from scipy import stats
-from time import sleep
 import requests
 import json
 import sqlite3
@@ -19,7 +20,7 @@ from csv import DictWriter
 import pandas
 from math import sqrt
 
-
+import utils
 import plotly.plotly as pltly
 import plotly.graph_objs as graphs
 from plotly import figure_factory as figfactory
@@ -30,7 +31,8 @@ fullpath= lambda x: os.path.abspath(os.path.join(os.path.dirname(__file__), x))
 
 printbreak="\n###########################################\n"
 
-sqlfile = fullpath("main.db")
+sqlfile = utils.fullpath("/home/dysmas/Projects/.workspace/pyreel2real/rosy_ratings/main.db")
+
 conn = sqlite3.connect(sqlfile)
 curs = conn.cursor()
 
@@ -46,47 +48,6 @@ class Ratings:
         self.rawscore, self.review_sent = None, None
         self.data = []
 
-
-    def _format_title(self, x, y):
-        title = re.sub('[%s]' % re.escape(string.punctuation), '', x.lower())
-
-        urlref = str(title + " %s" % y).split()
-        urlref = "-".join(urlref)
-        return urlref
-
-    def _build_url(self, url, **args):
-        args = dict(**args)
-        urlext = self._format_title(args["title"], args["year"])
-        self.review_url = "".join([url, urlext])
-
-
-    def observed(self, title, year, titleid):
-        
-        baseurl = "http://www.rogerebert.com/reviews/"
-        
-        self._build_url(baseurl, title=title, year=year)
-        try:
-            req = requests.get(self.review_url, headers={'user-agent':self.useragent})
-        except Exception as errmsg:
-            
-            
-            print("Err: %s" % errmsg)
-            return False
-        else:
-
-            soup = bsoup(req.text, 'html5lib')
-            reviewhtml = soup.find("div", {"itemprop":"reviewBody"})
-            section = soup.find("section", {"class":"main fixed-rail"})
-            article = section.find("article", {"class":"pad entry"})
-            head = article.find("header")
-            
-            starsbase = head.find('span',{'itemprop':"reviewRating", 'itemtype':"http://schema.org/Rating"})
-
-            starsfull= starsbase.findAll('i',{'class':"icon-star-full"})
-            starshalf = starsbase.findAll('i',{'class':"icon-star-half"})
-            total_stars = len(starsfull) + (len(starshalf)*.5)
-
-            return reviewhtml.get_text(), float(total_stars)
 
     def dumpdoc(self, doctext, tofile):
         with open(tofile, mode="a") as f:
@@ -166,6 +127,7 @@ class Ratings:
                     pcterr = abs(diff)/measured
                 except Exception as err:
                     pcterr = 0
+                    print(err)
                     pass
                 else:
                     
@@ -182,19 +144,20 @@ class Ratings:
 
 
     def _mktable(self):
-        stmt = """CREATE TABLE IF NOT EXISTS review_stars (id, title TEXT, release_year TEXT, observed_stars REAL,measured_stars REAL,diff REAL, perc_err REAL,sentiment TEXT, sentiment_score REAL,review_url TEXT)"""
+        stmt = """CREATE TABLE IF NOT EXISTS review_stars (title TEXT, release_year TEXT, observed_stars REAL,measured_stars REAL,diff REAL, perc_err REAL,sentiment TEXT, sentiment_score REAL,review_url TEXT)"""
         curs.execute(stmt)
         conn.commit()
         print("Table Created.")
     
 
 
-    def save(self, dct, to_db=True, to_csv=True):
+    def save(self, dct, to_db=True, to_csv=False):
         if to_db is True:
+            self._mktable()
             stmt = """INSERT INTO review_stars(id, title, release_year, observed_stars, measured_stars, diff, perc_err, sentiment, sentiment_score, review_url) VALUES (?,?,?,?,?,?,?,?,?,?)"""
             curs.execute(stmt, tuple([v for v in dct.values()]))
         if to_csv is True:
-            filepath = fullpath("../review_stars.csv")
+            filepath = utils.fullpath("../review_stars.csv")
             header = ["id", "title", "release_year", "observed_stars",
                       "measured_stars", "diff", "perc_err", "sentiment", 
                       "sentiment_score", "review_url"]
@@ -398,15 +361,38 @@ class StatsTests(Ratings):
               "\nCramers V\n",
               "Overall: ", totalV,
               "\nBy Group: ", Vs)
+    def hodgesLehman(self, x):
+        m = numpy.outer(x, x)
+        ind = numpy.tril_indices(len(x), -1)
+        return 0.5 * numpy.median(m[ind])
 
-    def Correlation(self):
 
-        rankcorr = stats.spearmanr(a = numpy.array([float(i[1]) for i in self.data]),
-                                   b = numpy.array([float(j[2]) for j in self.data]))
+    def CorrAndWilcoxon(self):
+        df = pandas.DataFrame(self.data)
+        N = len(self.data)
+        randN = numpy.random.randint(0, N, size=(900, 1))
+        osamp = [float(df[1].loc[i]) for i in randN]
+        msamp = [float(df[2].loc[i]) for i in randN]
+
+        omdn = self.hodgesLehman(x=[float(i[1]) for i in self.data])
+        mmdn = self.hodgesLehman(x=[float(i[2]) for i in self.data])
+
+        wilcox = stats.wilcoxon(x=osamp, y=msamp, zero_method="pratt")
+        mannwhit = stats.mannwhitneyu(x=osamp, y=msamp, use_continuity=True, alternative="two-sided")
+
+
+        Zw = float(wilcox[0]/sqrt((901*(901*1801))/6))
+
+        rankcorr = stats.kendalltau(x =numpy.array([float(i[1]) for i in self.data]),
+                                    y =numpy.array([float(j[2]) for j in self.data]))
         print(printbreak,
               "\nCorrelation: ",
               rankcorr)
 
+        print(wilcox)
+        print(mannwhit)
+        print(Zw)
+        print(mmdn, omdn)
 
     def Plot(self):
         freqs = self.Frequencies(counts=True, percents=True)
@@ -440,8 +426,8 @@ class StatsTests(Ratings):
                         marker={"color":"#9d87ed"})
 
         diffs = dict(Counter(list(map(lambda x, y: x-y,
-                                      [float(i[1]) for i in self.data],
-                                      [float(j[2]) for j in self.data]))))
+                                      [float(j[2]) for j in self.data],
+                                      [float(i[1]) for i in self.data]))))
 
 
         diffbars = graphs.Bar(x=[x for x in diffs.keys()],
@@ -482,10 +468,6 @@ class StatsTests(Ratings):
 
 
 
-stat = StatsTests()
 
-stat.ChiSquared()
-stat.Correlation()
 
-stat.Plot()
 

@@ -1,0 +1,1337 @@
+title	year	rank	watched
+10 Things I Hate About You 	1999	7.4	1
+Twelve Monkeys 	1995	6.5	1
+16 Blocks		5.6	1
+1900	1976	-99	0
+2 Guns		7.6	1
+2012		6.9	1
+21 Grams		8.1	1
+21 Jump Street 	2012	5.2	1
+21		7.1	1
+25th Hour		7.8	1
+27 Dresses		-99	0
+28 Days Later		8.4	1
+30 Minutes or Less		6.2	1
+42		7.3	1
+44 Minutes: The North Hollywood Shoot		-99	0
+50 First Dates		6.6	1
+500 Days of Summer		7.7	1
+61		7.8	0
+71		5.4	0
+8mm		8.2	1
+9		7.3	1
+A Beautiful Mind		8.2	1
+A Brilliant Young Mind		6.6	1
+A Case of You		-99	0
+A Civil Action 	1998	-99	0
+A Cool, Dry Place		-99	0
+A Dangerous Method		-99	0
+Brokeback Mountain		8.6	1
+Broken Arrow 	1996	4.8	1
+Broken Flowers		-99	0
+Brooklyn's Finest 	2009	6.7	1
+Brooklyn		-99	0
+Bull Durham		-99	1
+Burke and Hare		-99	0
+Burn After Reading		-99	1
+Burnt		-99	1
+Butch Cassidy and the Sundance Kid		-99	1
+Butter		7.3	1
+Caddyshack		-99	0
+Cadillac Records		-99	1
+Elmer Gantry		-99	1
+Empire Records		-99	1
+Enemy at the Gates		-99	1
+Enemy of the State		-99	1
+Enigma		-99	1
+Enough Said		-99	1
+Entourage		-99	1
+Equals		-99	0
+Eraser 	1996	-99	1
+Eraserhead		-99	1
+Erin Brockovich		-99	1
+Eternal Sunshine of the Spotless Mind		-99	1
+Everything Must Go		-99	1
+Ex Machina 	2014	-99	0
+In a World		-99	1
+In Bruges		-99	1
+In Good Company		-99	1
+In The Electric Mist		-99	0
+In the Heart of the Sea		-99	1
+In The Loop		-99	0
+In The Valley of Elah		-99	1
+In Your Eyes 	2014	-99	0
+Inception		-99	1
+Independence Day		-99	1
+Indiana Jones and The Last Crusade		-99	1
+Raiders of the Lost Ark		-99	1
+Indiana Jones and The Temple of Doom		-99	1
+Inferno 	2016	-99	1
+Inglourious Basterds		-99	1
+Inherit The Wind 	1960	-99	1
+A Fantastic Fear of Everything		-99	1
+About Cherry		-99	1
+Allied 	2016	-99	1
+Animal Kingdom		-99	0
+As Good As It Gets		-99	1
+Bad Teacher		-99	1
+Being John Malkovich		-99	1
+Black Rain		-99	1
+Calendar Girls		-99	1
+Catch and Release		-99	1
+Chicken Run		-99	1
+Million Dollar Baby		-99	1
+Millions		-99	1
+Miracle 	2004	-99	1
+Miracle at St. Anna		-99	1
+Miracle On 34th Street		-99	1
+Mississippi Burning 	1988	-99	1
+Mississippi Grind		-99	1
+Mona Lisa Smile		-99	1
+Money for Nothing: Inside the Federal Reserve		-99	1
+Moneyball		-99	1
+Monster-in-Law 	2005	-99	1
+Monster		-99	1
+Monster's Ball		-99	1
+Monsters, Inc.		-99	1
+Safety Not Guaranteed		-99	1
+Saints and Soldiers		-99	0
+Salt		-99	1
+Salting the Battlefield		-99	0
+Salvador 	1986	-99	1
+Saving Private Ryan		-99	1
+Saving Silverman		-99	1
+Scarface		-99	1
+Scent of a Woman 	1992	-99	1
+Schindler's List		-99	1
+Se7en		-99	1
+Seabiscuit		-99	1
+Thank You For Smoking		-99	1
+Thanks for Sharing		-99	1
+That's What She Said		-99	1
+That's What I Am		-99	1
+The 300 Spartans 	1962	-99	1
+The 40 Year Old Virgin		-99	1
+The Accountant 	2016	-99	1
+The Age of Adaline 	2015	-99	0
+The Art Of The Steal		-99	1
+The Assassination of Jesse James by the Coward Robert Ford		-99	1
+The Astronaut Farmer		-99	1
+The Avengers		-99	1
+The Heartbreak Kid		-99	1
+The Hobbit - The Battle of the Five Armies		-99	1
+The Hobbit - The Desolation of Smaug		-99	1
+The Holiday		-99	1
+The Horse Whisperer		-99	1
+The Hundred Foot Journey		-99	1
+The Hunger Games: Catching Fire		-99	1
+The Hunger Games: Mockingjay - Part 1		-99	1
+The Hunger Games: Mockingjay - Part 2		-99	1
+The Hunger Games		-99	1
+The Proposal		-99	1
+The Proposition		-99	1
+The Pursuit of Happyness		-99	1
+The Queen		-99	1
+The Quick and The Dead		-99	0
+The Railway Man		-99	0
+The Reader		-99	1
+The Rebound		-99	1
+The Replacements		-99	1
+The Revenant		-99	1
+The Road		-99	1
+The Rock		-99	1
+The Rocker		-99	1
+The Rocky Horror Picture Show		-99	0
+The Rookie 	1990	-99	1
+About Schmidt		-99	1
+About Time		-99	1
+Above The Rim		-99	1
+Accepted		-99	1
+Ace Ventura: Pet Detective		-99	1
+Ace Ventura: When Nature Calls		-99	1
+Adaptation. 	2002	-99	1
+Adventureland		-99	1
+Afternoon Delight		-99	1
+Against the Ropes		-99	1
+Aladdin 	1992	-99	1
+Alice in Wonderland		-99	1
+All About The Benjamins		-99	1
+All the President's Men		-99	1
+Allegiant		-99	1
+Almost Famous		-99	1
+Along Came A Spider		-99	1
+Along Came Polly		-99	1
+Alpha Dog		-99	1
+Amadeus		-99	1
+Amelie		-99	1
+America's Sweethearts		-99	1
+American Beauty		-99	1
+American Gangster		-99	1
+American Graffiti		-99	1
+American History X		-99	1
+American Hustle		-99	1
+American Pie 	1999	-99	1
+American Pie 2		-99	1
+American Wedding		-99	1
+American Reunion		-99	1
+American Psycho		-99	0
+American Sniper 	2014	-99	1
+Amores Perros		-99	1
+An American Crime		-99	1
+An Education		-99	1
+An Inconvenient Truth		-99	1
+Analyze That		-99	1
+Analyze This		-99	1
+Anchorman		-99	1
+Andersonville		-99	1
+Anger Management		-99	1
+Animal Farm 	1954	-99	1
+Animal Farm 	1999	-99	1
+Animal House		-99	1
+Anna Karenina		-99	1
+Anomalisa		-99	1
+Anonymous		-99	1
+Another Day In Paradise 	1998	-99	1
+Antwone Fisher		-99	1
+Any Given Sunday		-99	1
+Apocalypse Now 	1979	-99	1
+Apocalypto		-99	0
+Apollo 13		-99	1
+Argo		-99	1
+Armageddon 	1998	-99	1
+Arrival 	2016	-99	1
+Arthur Newman		-99	0
+Ask Me Anything		-99	0
+Assassination Of A High School President		-99	1
+August Osage County 	2013	-99	1
+August Rush		-99	1
+Auto Focus		-99	1
+Avengers: Age of Ultron		-99	1
+Babel		-99	1
+Bachelor Party 	1984	-99	1
+Bachelorette 	2012	-99	1
+Back to the Future		-99	1
+Backdraft 	1991	-99	1
+Bad Boys II 	2003	-99	1
+Bad Boys		-99	1
+Bad Day at Black Rock 	1955	-99	1
+Bad Santa 	2003	-99	1
+Bad Santa 2 	2016	-99	1
+Badlands		-99	1
+Bandits		-99	1
+Barefoot 	2014	-99	1
+BASEketball		-99	1
+Basic Instinct 	1992	-99	1
+Batman v Superman: Dawn of Justice 	2016	-99	0
+Be Cool		-99	1
+Be Kind Rewind		-99	1
+Bedazzled		-99	1
+Beetlejuice		-99	1
+Before The Devil Knows You're Dead		-99	1
+Before We Go 	2014	-99	1
+Begin Again		-99	1
+Being Flynn		-99	1
+Belly		-99	1
+Bernie		-99	1
+Best Man Down		-99	1
+Better Off Dead		-99	1
+Bicentennial Man		-99	1
+Big Daddy		-99	1
+Big Fish		-99	1
+Big Momma's House 2 	2006	-99	1
+Big Momma's House 	2000	-99	1
+Big Mommas: Like Father, Like Son 	2011	-99	1
+Big Nothing		-99	1
+Big		-99	1
+Billy Madison		-99	1
+Birdman		-99	1
+Black Hawk Down		-99	1
+Black Mass		-99	1
+Black Sea		-99	1
+Black Snake Moan		-99	1
+Black Swan		-99	1
+Blade Runner 	1997	-99	1
+Blazing Saddles		-99	1
+Blended 	2014	-99	1
+Blitz 	2011	-99	0
+Blood Diamond		-99	1
+Blood Ties		-99	1
+Blow		-99	1
+Blown Away 	1994	-99	1
+Blue Valentine		-99	1
+Bone Tomahawk		-99	1
+Boogie Nights		-99	1
+Braveheart		-99	1
+Breach		-99	1
+Breakfast At Tiffany's 	1961	-99	1
+Brick		-99	1
+Calvary		-99	1
+Candy		-99	1
+Cape Fear 	1991	-99	1
+Capote		-99	1
+Captain America: Civil War 	2016	-99	1
+Captain America: The First Avenger		-99	1
+Captain America: The Winter Soldier		-99	1
+Captain Fantastic 	2016	-99	1
+Career Opportunities		-99	1
+Casablanca		-99	1
+Casino Jack		-99	1
+Casino		-99	1
+Cassandra's Dream		-99	1
+Cast Away		-99	1
+Catch .44		-99	1
+Catch Me If You Can		-99	1
+CB4		-99	1
+CBGB		-99	1
+Cedar Rapids		-99	1
+Celeste & Jesse Forever 	2012	-99	0
+Central Intelligence 	2016	-99	1
+Certain Women 	2016	-99	1
+Chain Reaction		-99	1
+Charlie Bartlett		-99	1
+Charlie Wilson's War 	2007	-99	1
+Charly 	1968	-99	1
+Chasing Amy		-99	1
+Chef		-99	1
+Chicago 	2002	-99	0
+Children Of Men		-99	1
+Chocolat		-99	0
+Cinderella Man		-99	1
+Citizen Kane		-99	1
+Citizen Ruth		-99	1
+Citizenfour		-99	1
+City by the Sea		-99	1
+City of God		-99	1
+City Slickers		-99	1
+Clean and Sober  	1988	-99	0
+Clear and Present Danger		-99	1
+Clerks II		-99	1
+Clerks		-99	1
+Click		-99	1
+Clockers		-99	1
+Cloud Atlas		-99	1
+Coach Carter		-99	1
+Cobb 	1994	-99	0
+Codebreaker		-99	1
+Collateral		-99	1
+Colors		-99	1
+Con Air		-99	1
+Conspiracy Theory		-99	1
+Contact		-99	1
+Contagion		-99	1
+Contraband		-99	1
+Cool Hand Luke		-99	1
+Couples Retreat		-99	1
+Cradle Will Rock		-99	1
+Crank 	2006	-99	1
+Crank: High Voltage 	2009	-99	1
+Crash		-99	1
+Crazy Heart		-99	1
+Creed		-99	1
+Criminal 	2016	-99	1
+Crimson Tide		-99	1
+Cruising		-99	1
+Dan in Real Life		-99	1
+Dark Blood		-99	1
+Date Night		-99	1
+Days of Heaven		-99	1
+Dazed and Confused		-99	1
+Dead Alive		-99	1
+Dead Man Walking		-99	1
+Dead Presidents		-99	1
+Death At A Funeral		-99	1
+Death Race 	2008	-99	1
+Death To Smoochy		-99	1
+Deconstructing Harry		-99	1
+Deep Cover		-99	1
+Deep Impact		-99	1
+Deepwater Horizon 	2016	-99	1
+Defendor		-99	0
+Definitely, Maybe		-99	1
+Deja Vu		-99	1
+Delivery Man		-99	1
+Demolition Man		-99	1
+Derailed		-99	1
+Deuce Bigalow: European Gigolo		-99	1
+Deuce Bigalow: Male Gigolo		-99	1
+Did You Hear About The Morgans		-99	1
+Die Hard with A Vengeance		-99	1
+Die Hard		-99	1
+Diner		-99	1
+Disconnect		-99	1
+Divergent		-99	1
+Divine Secrets of the Ya-Ya Sisterhood		-99	1
+Django Unchained		-99	1
+Dodgeball		-99	1
+Dog Day Afternoon		-99	1
+Dogfight		-99	1
+Dogma		-99	1
+Dom Hemingway		-99	1
+Domino		-99	1
+Don Jon		-99	1
+Donnie Brasco		-99	1
+Donnie Darko		-99	1
+Double Jeopardy		-99	1
+Doubt		-99	1
+Down in the Valley		-99	1
+Down to Earth		-99	1
+Downfall		-99	1
+Draft Day		-99	1
+Drinking Buddies		-99	1
+Drive		-99	1
+Drugstore Cowboy		-99	1
+Due Date		-99	1
+Eastern Promises		-99	1
+Easy A		-99	1
+Easy Rider		-99	1
+Edge of Tomorrow		-99	1
+EDtv		-99	1
+Edward Scissorhands		-99	1
+Election		-99	1
+Elektra Luxx		-99	1
+Elephant		-99	1
+Elf		-99	1
+Elizabethtown		-99	1
+Extract		-99	1
+Extremely Loud & Incredibly Close		-99	1
+Eye of the Needle 	1981	-99	1
+Fallen		-99	1
+Fanboys		-99	1
+Fantastic Beasts and Where to Find Them 	2016	-99	1
+Fast Food Nation		-99	1
+Fast Times At Ridgemont High		-99	1
+Fear and Loathing in Las Vegas		-99	1
+Fences 	2016	-99	1
+FernGully: The Last Rainforest		-99	1
+Ferris Bueller's Day Off		-99	1
+Field of Dreams 	1989	-99	1
+Fifty Shades of Grey 	2015	-99	1
+Fight Club		-99	1
+Filth		-99	1
+Finding Neverland		-99	1
+Five Easy Pieces		-99	1
+Flags Of Our Fathers		-99	1
+Flawless		-99	1
+Flight		-99	1
+Flipped		-99	1
+Floored		-99	1
+Flypaper		-99	0
+Focus		-99	1
+Forget Paris		-99	1
+Forgetting Sarah Marshall		-99	1
+Forrest Gump		-99	1
+Four Brothers 	2005	-99	1
+Four Christmases		-99	1
+Four Weddings and a Funeral 	1994	-99	1
+Fracture		-99	1
+Friday After Next		-99	1
+Friday Night Lights		-99	1
+Friday		-99	1
+Fried Green Tomatoes 	1991	-99	1
+Friends With Benefits		-99	1
+From Dusk Till Dawn		-99	1
+Full Metal Jacket		-99	1
+Fun with Dick and Jane		-99	1
+Funny People		-99	1
+Fury 	2014	-99	1
+Gandhi		-99	1
+Gangs of New York		-99	1
+Gangster Squad		-99	1
+Garden State		-99	1
+Genius 	2016	-99	1
+Gerry		-99	1
+Get Hard		-99	1
+Get Him To The Greek		-99	1
+Get Rich or Die Tryin'		-99	1
+Get Shorty		-99	1
+Get Smart		-99	1
+Ghost 	1990	-99	1
+Ghostbusters II		-99	1
+Ghostbusters		-99	1
+Girl, Interrupted		-99	1
+Gladiator		-99	1
+Glengarry Glen Ross 	1992	-99	1
+Glory		-99	1
+God's Pocket		-99	1
+Godzilla 	1998	-99	1
+Going Clear 		-99	1
+Going the Distance		-99	1
+Gone Girl 	2014	-99	1
+Gone in 60 Seconds		-99	1
+Good Kill		-99	1
+Good Time Max		-99	1
+Good Will Hunting		-99	1
+Goodfellas		-99	1
+Good Night, and Good Luck.		-99	1
+Gran Torino		-99	1
+Dead Poets Society		-99	1
+Die Hard 2		-99	1
+Dope		-99	1
+Exit Through The Gift Shop		-99	1
+Fish Tank		-99	1
+Frank		-99	1
+Glory Road		-99	1
+Grandma's Boy		-99	1
+Happy Gilmore		-99	1
+Hitman		-99	1
+Howl		-99	1
+Inside Man		-99	1
+Jackie 	2016	-99	1
+Great Balls Of Fire!		-99	1
+Green Lantern		-99	1
+Green Street Hooligans		-99	1
+Planet Terror		-99	1
+Death Proof		-99	1
+Groundhog Day		-99	1
+Guess Who		-99	1
+Gummo		-99	0
+Hackers		-99	1
+Hacksaw Ridge 	2016	-99	1
+Hail Caesar 	2016	-99	1
+Hall Pass		-99	1
+Hancock		-99	1
+Hannibal 	2001	-99	1
+Happiness		-99	1
+Harry Brown		-99	0
+Harry Potter and the Chamber of Secrets 	2002	-99	1
+Harry Potter and the Deathly Hallows - Part 1 	2010	-99	1
+Harry Potter and the Deathly Hallows - Part 2 	2011	-99	1
+Harry Potter and the Goblet of Fire 	2005	-99	1
+Harry Potter and the Half-Blood Prince 	2009	-99	1
+Harry Potter and the Order of the Phoenix 	2007	-99	1
+Harry Potter and the Sorcerer's Stone 	2001	-99	1
+Harry Potter and the Prisoner of Azkaban 	2004	-99	1
+Havoc		-99	0
+He Got Game		-99	1
+He's Just Not That Into You		-99	1
+Heartbreak Ridge 	1986	-99	1
+Heartbreakers		-99	1
+Hearts in Atlantis		-99	1
+Hearts of Darkness 		-99	1
+Heat 	1995	-99	1
+Heist		-99	1
+Hell or High Water		-99	1
+Here Comes The Boom		-99	1
+Hidalgo		-99	1
+Hidden Figures 	2016	-99	1
+High on Crack Street		-99	1
+High School		-99	1
+Hitch		-99	1
+Home 	2015	-99	1
+Home Alone 2		-99	1
+Home Alone		-99	1
+Homefront 	2013	-99	1
+Hoosiers		-99	1
+Hope Springs		-99	1
+Hostage		-99	1
+Hot Fuzz		-99	1
+Hot Tub Time Machine		-99	1
+Hotel Rwanda		-99	1
+Hotel Transylvania 	2012	-99	1
+House Party 	1990	-99	1
+How High		-99	1
+How the West Was Won 	1962	-99	1
+How to Lose A Guy in 10 Days 	2003	-99	1
+How To Lose Friends & Alienate People 	2008	-99	1
+Inside Out 	2015	-99	1
+Insomnia		-99	1
+Insurgent		-99	1
+Intermission		-99	1
+Interview with the Vampire		-99	1
+Into The Wild		-99	1
+Into the Woods 	2014	-99	1
+Intolerable Cruelty		-99	1
+Invincible		-99	1
+Iron Man 2		-99	1
+Iron Man 3		-99	1
+Iron Man		-99	1
+It's Kind of a Funny Story 	2010	-99	1
+J.Edgar		-99	1
+Jack Goes Boating		-99	1
+Jack		-99	1
+Jackie Brown 	1997	-99	1
+Jakob the Liar		-99	1
+Casino Royale 	2006	-99	1
+Die Another Day		-99	1
+Quantum of Solace		-99	1
+James Dean		-99	1
+Jay and Silent Bob Strike Back		-99	1
+Jeff Who Lives at Home		-99	1
+Jerry Maguire		-99	1
+Jersey Boys		-99	1
+Jersey Girl		-99	1
+JFK 	1991	-99	1
+Jobs		-99	1
+Stuff 	1993	-99	1
+Joy		-99	1
+Julie & Julia 	2009	-99	1
+Jumanji		-99	1
+Juno		-99	1
+The Lost World: Jurassic Park		-99	1
+Jurassic Park III		-99	1
+Jurassic Park		-99	1
+Jurassic World		-99	1
+Just Friends		-99	1
+Just Go With It		-99	1
+Just Like Heaven 	2005	-99	1
+K-19 The Widowmaker		-99	1
+K-PAX		-99	1
+Kalifornia		-99	1
+Keeping The Faith		-99	1
+Keeping Up With The Steins		-99	1
+Kidnapping Mr.Heineken		-99	1
+Kill Bill Vol. 1		-99	1
+Kill Bill Vol. 2		-99	1
+Kill the Messenger		-99	1
+Kill Your Darlings		-99	1
+Killer Elite 	2011	-99	1
+Killer Joe		-99	1
+Killshot		-99	1
+Kindergarten Cop		-99	1
+King Kong 	2005	-99	1
+Kingdom of Heaven		-99	1
+Kingpin		-99	1
+Kiss Kiss Bang Bang		-99	1
+Knocked Up		-99	1
+Kramer vs Kramer 	1979	-99	1
+Cobain: Montage of Heck		-99	1
+La Bamba 	1987	-99	1
+Last Vegas		-99	1
+Laurel Canyon		-99	1
+Law Abiding Citizen		-99	1
+Lawless 	2012	-99	1
+Lay The Favorite		-99	1
+Layer Cake		-99	1
+Leaves of Grass		-99	1
+Leaving Las Vegas		-99	1
+Legends of the Fall		-99	1
+Les Miserables 	1998	-99	1
+Less Than Zero		-99	1
+Lethal Weapon 2		-99	1
+Lethal Weapon 3		-99	1
+Lethal Weapon 4		-99	1
+Lethal Weapon		-99	1
+Liar Liar		-99	1
+Liberal Arts		-99	1
+License to Wed		-99	1
+Life As A House		-99	1
+Life As We Know It 	2010	-99	1
+Life of a King		-99	1
+Life of Pi		-99	1
+Like Crazy		-99	1
+Limitless		-99	1
+Lincoln		-99	1
+Lion 	2016	-99	1
+Lions For Lambs		-99	1
+Little Boy 	2015	-99	1
+Little Fockers		-99	1
+Little Miss Sunshine		-99	1
+Little Nicky		-99	1
+Live Free or Die Hard		-99	1
+Lock, Stock and Two Smoking Barrels		-99	1
+Locke		-99	1
+Lone Survivor 	2013	-99	1
+Look Who's Talking Too		-99	1
+Look Who's Talking		-99	1
+Lords of Dogtown		-99	1
+Lorenzo's Oil 	1992	-99	1
+Lost in Translation		-99	1
+Love & Other Drugs		-99	1
+Love, Actually		-99	1
+Love, Rosie 	2014	-99	1
+Loving 	2016	-99	1
+Lucky Number Slevin		-99	1
+Lucky You		-99	1
+Lucy		-99	1
+Mad Max Fury Road 	2015	-99	0
+Made		-99	1
+Magnolia 	1999	-99	1
+Major League II 	1994	-99	1
+Major League		-99	1
+Malcolm X		-99	1
+Maleficent 	2014	-99	1
+Mallrats		-99	1
+Man on Fire		-99	1
+Man on the Moon		-99	1
+Manhunter 	1986	-99	1
+Margin Call		-99	1
+Marley & Me		-99	1
+Marvin's Room 	1996	-99	1
+Master and Commander: The Far Side of The World		-99	1
+Matchstick Men		-99	1
+Maverick		-99	1
+Maybe Baby		-99	1
+Me, Myself & Irene		-99	1
+Mean Creek		-99	1
+Mean Streets		-99	1
+Meet Bill		-99	1
+Meet Joe Black		-99	1
+Meet The Fockers		-99	1
+Meet The Parents		-99	1
+Memoirs of a Geisha		-99	1
+Men Of Honor		-99	1
+Menace II Society		-99	1
+Merlin		-99	1
+Mickey Blue Eyes		-99	1
+Midnight Express		-99	1
+Midnight Run		-99	1
+Midnight Special 	2016	-99	1
+Milk Money		-99	1
+Miller's Crossing 	1990	-99	1
+Moon		-99	1
+Moonlight 	2016	-99	1
+Moonrise Kingdom		-99	1
+Moonstruck		-99	1
+Morning Glory 	2010	-99	1
+Mortal Thoughts		-99	0
+Moulin Rouge		-99	1
+Mr. Mom		-99	1
+Mr. Woodcock 	2007	-99	1
+Mr. 3000		-99	1
+Mr. and Mrs. Smith		-99	1
+Mr. Deeds		-99	1
+Mr. Saturday Night		-99	1
+Mr.Nobody		-99	1
+Mrs. Doubtfire		-99	1
+Mud		-99	1
+Mulan 	1998	-99	1
+Mulholland Drive 	2001	-99	1
+Mumford		-99	1
+Munich		-99	1
+Music and Lyrics		-99	1
+My Best Friend's Girl 	2008	-99	1
+My Big Fat Greek Wedding		-99	1
+My Dinner with Andre 	1981	-99	1
+My Own Private Idaho		-99	1
+My Summer of Love		-99	1
+My Week With Marilyn		-99	1
+Mysterious Skin		-99	1
+Mystery, Alaska		-99	1
+National Lampoon's Christmas Vacation		-99	1
+National Lampoon's Vacation		-99	1
+Natural Born Killers 	1994	-99	1
+Nebraska		-99	1
+Ned Kelly		-99	1
+Neighbors 	2014	-99	1
+Network		-99	1
+New Jack City		-99	1
+Next Day Air		-99	1
+Next Friday		-99	1
+Nick And Norah's Infinite Playlist		-99	1
+Nightcrawler 	2014	-99	1
+No Country for Old Men		-99	1
+No Reservations		-99	1
+Nocturnal Animals 	2016	-99	0
+North Country		-99	1
+North		-99	1
+Nothing To Lose		-99	1
+Notting Hill		-99	1
+Now You See Me 2 	2016	-99	1
+Now You See Me		-99	1
+Observe and Report		-99	1
+Ocean's Eleven		-99	1
+Ocean's Twelve		-99	1
+Ocean's Thirteen		-99	1
+Ocean's 11 	1960	-99	1
+October Sky		-99	1
+Odd Thomas 	2013	-99	1
+Of Mice And Men		-99	1
+Office Space		-99	1
+Crazy on the Outside		-99	1
+John Q		-99	1
+The Girl Next Door		-99	1
+Kids		-99	1
+LA Confidential 	1997	-99	1
+Letters From Iwo Jima		-99	1
+Little Giants		-99	1
+Love Liza		-99	1
+Manchester by the Sea 	2016	-99	1
+Life of Brian		-99	1
+Mr. Pip 	2012	-99	1
+Mystic River		-99	1
+Non-Stop		-99	1
+OH in Ohio		-99	1
+Paid In Full		-99	1
+Perfect Stranger		-99	1
+Pretty Woman 	1990	-99	1
+Old School		-99	1
+Once Upon A Time In America		-99	1
+Once Upon a Time in Mexico		-99	1
+One Day		-99	1
+One Flew Over The Cuckoo's Nest 	1975	-99	1
+One for the Money		-99	1
+One Hour Photo		-99	1
+Orange County		-99	1
+Other People's Money		-99	1
+Our Kind of Traitor 	2016	-99	1
+Out of the Furnace		-99	1
+Outbreak		-99	1
+Over The Edge		-99	1
+Oz the Great and Powerful 	2013	-99	1
+Pain & Gain		-99	1
+Paranoid Park		-99	1
+Parental Guidance		-99	1
+Parker		-99	1
+Parkland		-99	1
+Party Monster		-99	1
+Patch Adams		-99	1
+Patriot Games		-99	1
+Paul Blart Mall Cop		-99	1
+Paul		-99	1
+Pay It Forward		-99	1
+PCU		-99	1
+Pelican Brief		-99	1
+Phenomenon		-99	1
+Philadelphia		-99	1
+Pineapple Express		-99	1
+Pirate Radio 	2009	-99	1
+Pirates of Silicon Valley		-99	1
+Pixies		-99	1
+Planes, Trains & Automobiles		-99	1
+Platoon		-99	1
+Play It to the Bone		-99	1
+Point Break		-99	1
+Pollock		-99	1
+Precious		-99	1
+Predestination		-99	1
+Presumed Innocent		-99	1
+Pretty In Pink		-99	1
+Pride and Glory		-99	1
+Pride and Prejudice		-99	1
+Primal Fear		-99	1
+Prisoners 	2013	-99	1
+Prometheus 	2012	-99	1
+Public Enemies		-99	1
+Pulp Fiction		-99	1
+Punch-Drunk Love		-99	1
+Pure		-99	1
+Pusher		-99	1
+Quadrophenia		-99	1
+Quick Change		-99	1
+Quiz Show 	1994	-99	1
+Radio		-99	1
+Raising Arizona		-99	1
+Rampart		-99	1
+Rango		-99	1
+Ransom		-99	1
+Rat Race		-99	1
+Ray		-99	1
+Real Steel		-99	1
+Reasonable		-99	1
+Rebel Without a Cause		-99	1
+Rebound: The Legend of Earl 'The Goat' Manigault		-99	1
+Red 2		-99	1
+Red Dragon		-99	1
+Red Heat		-99	1
+Red		-99	1
+Redemption 	2013	-99	1
+Reign Over Me		-99	1
+Remember The Titans		-99	1
+Repo Men		-99	1
+Requiem For A Dream		-99	1
+Reservation Road		-99	1
+Reservoir Dogs		-99	1
+Results 	2015	-99	1
+Resurrecting The Champ		-99	1
+Return to Paradise		-99	1
+Riding In Cars With Boys		-99	1
+Risky Business		-99	1
+Road to Perdition		-99	1
+Road Trip		-99	1
+Robin Hood 	2010	-99	1
+RoboCop 	2014	-99	1
+Rock Star 	2001	-99	1
+Rocket Science		-99	1
+Rocky II		-99	1
+Rocky IV		-99	1
+Rocky V		-99	1
+Rocky Balboa		-99	1
+Rocky		-99	1
+Rogue One 	2016	-99	1
+Rogue Trader 	1999	-99	1
+Role Models		-99	1
+Rolling		-99	1
+Room		-99	1
+Rounders		-99	1
+Rules of Engagement 	2000	-99	1
+Run All Night		-99	1
+Run Fatboy Run		-99	1
+Run Lola Run		-99	1
+Runaway Jury 	2003	-99	1
+Runner Runner		-99	1
+Running On Empty		-99	1
+Running Scared		-99	1
+Rush		-99	1
+Secondhand Lions		-99	1
+Secretary		-99	1
+Seeking a Friend for the End of the World		-99	1
+Self Medicated		-99	1
+Self-less 	2015	-99	1
+Serenity 		-99	0
+Seven Psychopaths		-99	1
+Sex & Drugs & Rock & Roll		-99	1
+Sex Drive 	2008	-99	1
+Shallow Grave		-99	1
+Shallow Hal		-99	1
+Shame		-99	0
+Shaun of the Dead		-99	1
+She's Out of My League		-99	1
+Sherlock Holmes: A Game of Shadows 	2011	-99	1
+Shoot to Kill 	1988	-99	0
+Shooter		-99	1
+Short Cuts		-99	1
+Sid and Nancy 	1986	-99	1
+Sideways		-99	1
+Signs		-99	1
+Silence 	2016	-99	1
+Simon Birch		-99	1
+Singles		-99	1
+Six Days Seven Nights		-99	1
+Sixteen Candles		-99	1
+Skyfall		-99	1
+Slap Shot		-99	1
+Sleepless in Seattle		-99	1
+Sling Blade		-99	0
+Slumdog Millionaire		-99	1
+Smart People		-99	1
+Smashed		-99	1
+Smokin' Aces		-99	1
+Snatch		-99	1
+Sneakers		-99	1
+Snow White and the Huntsman		-99	1
+Snowden		-99	1
+Something Borrowed 	2011	-99	1
+Southpaw 	2015	-99	1
+Space Cowboys		-99	1
+Spanglish		-99	1
+Spare Parts		-99	1
+Speed 2		-99	1
+Spider-Man 	2002	-99	1
+The Amazing Spider-Man 	2012	-99	1
+The Amazing Spider-Man 2 	2014	-99	1
+Spider-Man 2 	2004	-99	1
+Spider-Man 3 	2007	-99	1
+Spies Like Us		-99	1
+Spirited Away 	2001	-99	1
+Spotlight		-99	1
+Spread		-99	1
+Spun		-99	1
+Spy 	2015	-99	1
+Spy Game		-99	1
+St.Vincent		-99	1
+Stalin 	1992	-99	1
+Stand By Me		-99	1
+Stand Up Guys		-99	1
+Star Trek Into Darkness		-99	1
+Star Trek		-99	1
+Starred Up		-99	1
+Starter for 10		-99	1
+State and Main		-99	1
+Step Brothers		-99	1
+Steve Jobs		-99	1
+Stop-Loss		-99	1
+Stranger Than Fiction		-99	1
+Striking Distance		-99	1
+Stripes		-99	1
+Stuck in Love 	2012	-99	1
+Sucker Punch		-99	1
+Sunshine Cleaning		-99	1
+Sunshine		-99	1
+Super Troopers		-99	1
+Superbad		-99	1
+Surrogates		-99	1
+Survivor		-99	1
+Suspect		-99	1
+Sweet Home Alabama		-99	1
+Sweetwater		-99	1
+Swimming Upstream		-99	1
+Swimming with Sharks		-99	1
+Swingers		-99	1
+Swordfish		-99	1
+Synecdoche, New York		-99	1
+Syrup		-99	1
+Tadpole		-99	1
+Taken 2		-99	1
+Taken 3 	2014	-99	1
+Taken		-99	1
+Taking Woodstock		-99	1
+Talladega Nights		-99	1
+Taxi		-99	1
+Ted 2		-99	1
+Ted		-99	1
+Temple Grandin 	2010	-99	1
+Terminator 2: Judgment Day		-99	1
+Terminator 3: Rise of the Machines		-99	1
+Terminator Salvation		-99	1
+Terminator		-99	1
+The Banger Sisters 	2002	-99	1
+The Bank Job		-99	1
+The Basketball Diaries		-99	1
+The Beach		-99	1
+The Beaver		-99	1
+The Big Easy		-99	1
+The Big Green		-99	1
+The Big Hit 	1998	-99	1
+The Big Lebowski		-99	1
+The Big Short		-99	1
+The Birdcage		-99	1
+The Blind Side		-99	1
+The Bone Collector		-99	1
+The Boondock Saints II: All Saints Day		-99	1
+The Boondock Saints		-99	1
+The Bourne Supremacy		-99	1
+The Bourne Ultimatum		-99	1
+The Brave Little Toaster		-99	1
+The Break Up		-99	1
+The Breakfast Club		-99	1
+The Broken Tower		-99	1
+The Brothers Bloom		-99	1
+The Bucket List		-99	1
+The Buddy Holly Story 	1978	-99	1
+The Cable Guy		-99	1
+The Chumscrubber		-99	1
+The Cider House Rules		-99	1
+The Color Of Money		-99	1
+The Company Men		-99	1
+The Constant Gardener		-99	1
+The Contract 	2006	-99	1
+The Core		-99	1
+The Curious Case of Benjamin Button		-99	1
+The Damned United		-99	1
+The Darjeeling Limited		-99	1
+The Dark Knight Rises		-99	1
+The Dark Knight		-99	1
+The Day After Tomorrow		-99	1
+The Day of The Jackal 	1973	-99	1
+The Debt		-99	1
+Repo Man		-99	1
+Rocky III		-99	1
+Searching for Bobby Fischer		-99	1
+Sherlock Holmes		-99	1
+Sleepers		-99	1
+Speed		-99	1
+State of Play		-99	1
+Supremacy		-99	1
+The Aviator		-99	1
+The Bourne Legacy		-99	1
+The Change Up		-99	1
+The Deer Hunter 	1978	-99	1
+The Fifth Estate		-99	1
+The Departed		-99	1
+The Devil Wears Prada		-99	1
+The Devil's Own 	1997	-99	1
+The Doors		-99	1
+The Drop		-99	1
+The English Patient 	1996	-99	1
+The Equalizer		-99	1
+The Expendables		-99	1
+The Express		-99	1
+The Family Man		-99	1
+The Family		-99	1
+The Fast and the Furious 	2001	-99	1
+The Fighter		-99	1
+The Final Cut		-99	1
+The First Time 	2012	-99	1
+The Five-Year Engagement		-99	1
+The Flowers of War		-99	0
+The Fly 	1986	-99	1
+The Forger		-99	1
+The Fountain		-99	1
+The Freshman		-99	1
+The Fugitive 	1993	-99	1
+The Full Monty		-99	1
+The Game		-99	1
+The General's Daughter 	1999	-99	1
+The Girl in the Park		-99	1
+The Girl With The Dragon Tattoo		-99	1
+The Godfather 	1972	-99	1
+The Godfather: Part II 	1974	-99	1
+The Godfather: Part III 	1990	-99	1
+The Good Girl		-99	1
+The Good Night		-99	1
+The Good Shepherd		-99	1
+The Good, the Bad and the Ugly 	1966	-99	1
+The Goonies		-99	1
+The Graduate		-99	1
+The Grand Budapest Hotel 	2014	-99	1
+The Great Escape		-99	1
+The Great Gatsby 	1974	-99	1
+The Great Gatsby 	2013	-99	1
+The Great Outdoors		-99	1
+The Great Raid		-99	1
+The Green Mile		-99	1
+The Grey		-99	1
+The Hangover Part III		-99	1
+The Hunt for Red October		-99	1
+The Hurricane		-99	1
+The Illusionist		-99	1
+The Imaginarium of Doctor Parnassus		-99	1
+The Imitation Game		-99	1
+The Immigrant		-99	1
+The Incredible Hulk		-99	1
+The Incredibles		-99	1
+The Informers		-99	1
+The Insider 	1999	-99	1
+The Intern		-99	1
+The Internship		-99	1
+The Interpreter		-99	1
+The Iron Giant		-99	1
+The Island		-99	1
+The Jackal		-99	1
+The Jerk		-99	1
+The Judge		-99	1
+The Jungle Book 	2016	-99	1
+The Kid		-99	1
+The Kings of Summer		-99	1
+The King's Speech		-99	1
+The Ladykillers		-99	1
+The Last King of Scotland		-99	1
+The Last Kiss		-99	1
+The Last Samurai		-99	1
+The Last Stand		-99	1
+The Legend of Zorro 	2005	-99	1
+The Liability		-99	1
+The Libertine		-99	1
+The Life and Death of Peter Sellers		-99	1
+The Life Aquatic with Steve Zissou		-99	1
+The Life of David Gale		-99	1
+The Lobster		-99	1
+The Long Kiss Goodnight		-99	1
+The Longest Ride 	2015	-99	1
+The Longest Yard		-99	1
+The Magic of Belle Isle		-99	1
+The Man In The Iron Mask		-99	1
+The Man in the Moon		-99	1
+The Man with The Golden Arm 	1955	-99	1
+The Martian		-99	1
+The Mask		-99	1
+The Matador		-99	1
+The Matrix		-99	1
+The Mechanic 	2011	-99	1
+The Merchant of Venice		-99	1
+The Mexican		-99	1
+The Miracle Worker 	1962	-99	1
+The Missing		-99	1
+The Mission		-99	1
+The Money Pit		-99	1
+The Monuments Men		-99	1
+The Mosquito Coast		-99	0
+The Necessary Death Of Charlie Countryman		-99	1
+The New Guy		-99	1
+The New World		-99	1
+The Next Three Days		-99	1
+The Nice Guys 	2016	-99	1
+The Night Listener		-99	0
+The November Man		-99	1
+The Old Man and The Sea 	1958	-99	1
+The Other Guys		-99	1
+The Others		-99	1
+The Package 	1989	-99	1
+The Painted Veil		-99	1
+The Patriot		-99	1
+The People vs Larry Flynt		-99	1
+The Perks Of Being A Wallflower		-99	1
+The Place Beyond the Pines		-99	1
+The Prestige		-99	1
+TRON: Legacy		-99	1
+Tropic Thunder 	2008	-99	1
+Trouble with the Curve		-99	1
+Troy		-99	1
+True Lies		-99	1
+True Romance		-99	1
+True Story		-99	1
+Trumbo		-99	1
+Turner & Hooch 	1989	-99	1
+Twin Peaks - Fire Walk with Me 		-99	1
+Twister		-99	1
+Two For The Money		-99	1
+Two Hands		-99	1
+Two Lovers		-99	1
+The Rover		-99	1
+The Royal Tenenbaums		-99	1
+The Rum Diary		-99	1
+The Runaways 	2010	-99	1
+The Saint 	1997	-99	1
+The Salton Sea		-99	1
+The Sandlot		-99	1
+The Score		-99	1
+The Scout		-99	1
+The Shawshank Redemption		-99	1
+The Shining		-99	1
+The Silence Of The Lambs		-99	1
+The Sixth Sense		-99	1
+The Spectacular Now 	2013	-99	1
+The Squid and the Whale		-99	0
+The Sum Of All Fears		-99	1
+The Sunset Limited		-99	1
+The Sure Thing		-99	1
+The Terminal		-99	1
+The Thin Red Line		-99	1
+The Thomas Crown Affair		-99	1
+The To Do List		-99	1
+The Town		-99	1
+The Transporter 	2002	-99	1
+The Transporter		-99	1
+The Tree of Life		-99	1
+The Trench		-99	1
+The Two Faces of January		-99	1
+The Ugly Truth		-99	1
+The Usual Suspects		-99	1
+The Virgin Suicides		-99	1
+The Wackness		-99	1
+The Watch		-99	1
+The Water Diviner		-99	1
+The Waterboy		-99	1
+The Way Back		-99	1
+The Way Way Back		-99	1
+The Way		-99	1
+The Weather Man		-99	1
+The Wedding Singer		-99	1
+The Whole Nine Yards		-99	1
+The Whole Ten Yards		-99	1
+The Wicker Man		-99	1
+The Wolverine 	2013	-99	1
+The Wrestler		-99	1
+Thelma & Louise 	1991	-99	1
+There Will Be Blood		-99	1
+There's Something About Mary		-99	1
+They Call Me Mister Tibbs 	1970	-99	0
+Thin Ice		-99	1
+Thirteen		-99	1
+This Boy's Life		-99	1
+This Is 40		-99	1
+This Is England	2006	-99	1
+This Is Spinal Tap 	1984	-99	1
+This is the End		-99	1
+This Means War		-99	1
+Thor - The Dark World		-99	1
+Throw Momma from the Train		-99	1
+Thumbsucker		-99	1
+Time Bandits		-99	1
+Tin Cup  	1996	-99	1
+To Die For		-99	1
+To Wong Foo Thanks for Everything, Julie Newmar 	1995	-99	1
+Tombstone		-99	1
+Tommy Boy		-99	1
+Too Big to Fail		-99	1
+Top Gun		-99	1
+Total Recall		-99	1
+Tower Heist		-99	1
+Toy Story 2		-99	1
+Toy Story 3		-99	1
+Toy Story		-99	1
+Traffic		-99	1
+Trainspotting		-99	1
+Transporter 2 	2005	-99	1
+Transporter 3		-99	1
+Travelling Salesman		-99	1
+Tremors		-99	1
+U Turn		-99	1
+U-571		-99	1
+Unbreakable		-99	1
+Uncertainty		-99	1
+Uncle Buck		-99	1
+Under the Mountain		-99	1
+Under the Skin		-99	1
+Under the Tuscan Sun		-99	1
+Unknown		-99	1
+Unthinkable		-99	1
+Up In The Air		-99	1
+Up		-99	1
+V for Vendetta		-99	1
+Valentines Day		-99	1
+Valkyrie		-99	1
+Van Wilder 2: The Rise of Taj		-99	1
+Van Wilder		-99	1
+Volcano		-99	1
+Wag the Dog		-99	1
+Waiting...		-99	1
+Walk Of Shame		-99	1
+Walk the Line		-99	1
+Wall Street: Money Never Sleeps		-99	1
+Wall Street		-99	1
+WALL-E		-99	1
+The Hunley		-99	1
+The Legend of Tarzan 	2016	-99	1
+The Man Who Wasn't There		-99	1
+The Natural		-99	1
+The Rookie 	2002	-99	1
+The Social Network		-99	1
+The Truman Show		-99	1
+The Wolf of Wall Street		-99	1
+Thor		-99	1
+Two Night Stand 	2014	-99	1
+U.S. Marshals 	1998	-99	1
+Wanderlust		-99	1
+What to Expect When You're Expecting		-99	1
+Wish You Were Here		-99	1
+Wanted		-99	1
+War Dogs		-99	1
+War Games		-99	1
+War of the Worlds		-99	1
+Warm Bodies		-99	1
+Warrior 	2011	-99	1
+Watchmen		-99	1
+We Bought A Zoo		-99	1
+We Were Soldiers		-99	1
+We're the Millers		-99	1
+Wedding Crashers		-99	1
+Wet Hot American Summer		-99	1
+What About Bob		-99	1
+What Happens In Vegas 	2008	-99	1
+What If 	2013	-99	1
+What Maisie Knew 	2012	-99	1
+What Women Want		-99	1
+What's The Worst That Could Happen		-99	1
+What's Your Number		-99	1
+What's Eating Gilbert Grape		-99	1
+When Harry Met Sally		-99	1
+Where the Truth Lies		-99	1
+Whiplash		-99	1
+White Men Can't Jump		-99	1
+Whitey: United States of America v. James J. Bulger		-99	1
+Wild Card		-99	1
+Wimbledon		-99	1
+Winter's Bone		-99	1
+Women in Trouble 		-99	1
+Wonder Boys		-99	1
+Wonderland		-99	1
+World War Z		-99	1
+X-Men: Days of Future Past 	2014	-99	1
+X-Men: The Last Stand		-99	1
+X-Men 2		-99	1
+xXx		-99	1
+Yes Man		-99	1
+You Don't Know Jack 	2010	-99	1
+You've Got Mail		-99	1
+Youth in Revolt		-99	1
+Zack and Miri Make a Porno		-99	1
+Zodiac		-99	1
+Zombieland		-99	1
+A Fish Called Wanda		-99	1
+A Good Year		-99	1
+A Hologram for the King		-99	1
+A Kid In King Arthur's Court		-99	1
+A League of Their Own		-99	1
+A Life Less Ordinary		-99	1
+A Mighty Heart		-99	1
+A Most Violent Year		-99	1
+A Most Wanted Man		-99	1
+A River Runs Through It		-99	1
+A Time to Kill		-99	1
+A Walk Among the Tombstones		-99	1
+A.C.O.D.		-99	1
+A.I. Artificial Intelligence		-99	1
+About A Boy		-99	1
+Hunger		-99	1
+I Am Legend		-99	1
+I Am Number Four		-99	1
+I Hope They Serve Beer in Hell		-99	1
+I Love You Phillip Morris		-99	1
+I Love You, Man		-99	1
+I Now Pronounce You Chuck & Larry		-99	1
+I, Robot		-99	1
+Identity 	2003	-99	1
+Idiocracy		-99	1
+Igby Goes Down		-99	1
+I'm Not There.		-99	1
