@@ -5,10 +5,14 @@ import statistics as stats
 from pandas import DataFrame, read_csv
 import numpy as np
 from sklearn.pipeline import Pipeline
+from plotly.offline import plot as offplot
+import plotly.graph_objs as graphs
 import os
 
-
 labeled_movies = []
+
+
+
 def prepare():
     db = Database(fullpath("data/data.db"))
     data = Data(mediatype="movie")
@@ -64,7 +68,6 @@ def convert_features(d, cat, **kwargs):
     df = DataFrame(d, columns=colnames).dropna(thresh=3)
     uni = []
     nn = []
-    nx = []
 
     if cat in [k for k in encoder_log.keys()]:
         uni.extend(encoder_log[cat]["unique_vals"])
@@ -126,10 +129,6 @@ if os.path.isfile(fullpath("data/fandango.csv")):
            "title","writers","watched"]
 
     unlabeled_movies = read_csv(fullpath("data/fandango.csv"), index_col=0)
-
-
-
-
 else:
     lst = in_theaters.listings()
     in_theaters.save(data=lst)
@@ -159,24 +158,25 @@ testy = build_arrays(unlabeled_movies.loc[:, ["watched"]], ["watched"])
 
 
 def execute():
-    pipe = Pipeline([("enc", OneHotEncoder()),
-                     ("clf", DecisionTreeClassifier(criterion="entropy"))])
+    pipe = DecisionTreeClassifier(criterion="entropy")
     pipe.fit(X=trainx, y=trainy)
     pred = pipe.predict(X=testx)
-    confirm(predicted=pred, actual=testy)
-
-def confirm(predicted, actual):
+    pth = pipe.decision_path(X=trainx)
     b=0
-    accs = []
-    recs = []
-    while b <= 20:
-        ids = np.random.choice([x for x in range(0, len(actual))], size=int(1*len(actual)))
-        acc = accuracy_score([int(actual[x]) for x in ids], [int(predicted[i]) for i in ids])
-        recall = recall_score([int(actual[x]) for x in ids], [int(predicted[i]) for i in ids])
+    accs, recs = [], []
+    while b <= 100:
+        ids = np.random.choice([x for x in range(0, len(testy))], size=int(1*len(testy)))
+        acc = accuracy_score([int(testy[x]) for x in ids], [int(pred[i]) for i in ids])
+        recall = recall_score([int(testy[x]) for x in ids], [int(pred[i]) for i in ids])
         accs.append(acc)
         recs.append(recall)
         b+=1
+
     avg_acc = stats.mean(accs)
     avg_recall = stats.mean(recs)
-    print(avg_acc, avg_recall)
-execute()
+    print(pth)
+
+    return accs, recs
+
+a, r = execute()
+
