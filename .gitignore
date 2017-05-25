@@ -2,3 +2,7 @@
 drafts/
 __pycache__/
 .misc
+.ipynb_checkpoints/
+data (copy 1).db
+*(copy 1).ipynb
+files/

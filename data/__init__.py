@@ -7,7 +7,7 @@ import csv
 import re
 from datetime import datetime
 from data import reviews as rev
-
+import numpy as np
 
 
 class Data(object):
@@ -55,6 +55,7 @@ class Data(object):
                 movie.update({"watched": args[a]["watched"]})
                 movie.pop("_dict")
                 self.movies.append(movie)
+
 
     def review_data(self, api, review):
         return {
@@ -138,6 +139,7 @@ class Data(object):
         else:
             raise ValueError("Cannot render titles list from loc")
         return vals
+
 
 
 
@@ -259,3 +261,87 @@ class Database(object):
 
         self.conn.commit()
         self.conn.close()
+
+class FeatureMap(Database):
+
+    def __init__(self, refmap):
+        super().__init__(dbfile=fullpath("data/data.db"))
+        self.refmap = refmap
+        self.refmap_file = fullpath("data/ref/ref.%s" % self.refmap)
+
+    def lookup_values(self, by, values):
+        valmap = self.get_valuemap(index_on=by)
+
+        vals = []
+        for v in values:
+            for i in valmap:
+                try:
+                    if i[self.refmap] == v:
+                        vals.append(i["id"])
+                    else:
+                        pass
+                except KeyError:
+                    self.addvalues2map(values=[v])
+                    vals.append(len(valmap)+1)
+
+        if len(vals) == 0:
+            print("No matching values found")
+            return []
+        else:
+            return vals
+
+    def get_valuemap(self, index_on="id"):
+        if os.path.isfile(self.refmap_file):
+            with open(self.refmap_file, mode="r") as f:
+                readr = csv.DictReader(f, fieldnames=["id", self.refmap])
+
+                if index_on == "id":
+                    mapp = list(map(lambda x: {"id":x["id"], self.refmap: x[self.refmap]}, [row for row in readr]))
+                elif index_on == "values":
+                    mapp = list(map(lambda x: {self.refmap: x[self.refmap], "id":x["id"]}, [row for row in readr]))
+                else:
+                    print("Invalid index specifier")
+                return mapp
+
+        else:
+            print("ref file not found. creating a new one...")
+            valmap = self.create_new_valuemap()
+
+            with open(self.refmap_file, mode="w") as f:
+                writr = csv.DictWriter(f, fieldnames=["id", self.refmap])
+
+                writr.writeheader()
+                writr.writerows(list(map(lambda x: {"id": x, self.refmap: valmap[x]}, [k["id"] for k in valmap])))
+                f.close()
+            if index_on == "id":
+                mapp = valmap
+            elif index_on == "values":
+                mapp = list(map(lambda x: {self.refmap: valmap[x], "id": x}, [k["id"] for k in valmap]))
+
+            return mapp
+
+    def create_new_valuemap(self):
+        selstmt = '''select %s from main''' % self.refmap
+        self.curs.execute(selstmt)
+        rows = self.curs.fetchall()
+        vals = []
+        for row in rows:
+            rowvals = row[0].split("|")
+            vals.extend(rowvals)
+        uniques = np.unique(vals)
+        return list(map(lambda y: {"id":y, self.refmap: uniques[y]}, [t for t in range(len(uniques))]))
+
+
+    def addvalues2map(self, values, auto_index=True):
+        existing = self.get_valuemap(index_on="id")
+        with open(self.refmap_file, mode="a", newline="\n") as f:
+            writr = csv.DictWriter(f, fieldnames=["id", self.refmap])
+            for v in range(len(values)):
+                if values[v] in [v for v in existing.values()]:
+                    pass
+                else:
+                    writr.writerow({"id":v+len(existing), self.refmap: values[v]})
+                    f.flush()
+                print("row added")
+            f.close()
+        return self.get_valuemap(index_on="id")

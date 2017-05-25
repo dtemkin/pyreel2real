@@ -14,10 +14,9 @@ from data import Data, Database
 class Plot(object):
 
 
-    def __init__(self, predicted_y, actual_y):
-        self.y0 = predicted_y
-        self.y1 = actual_y
-        self.average_precision
+    def __init__(self, y0, y1):
+        self.y0 = y0
+        self.y1 = y1
 
 
     def model_performance(self, recall, precision):
@@ -40,4 +39,19 @@ class Plot(object):
         line_color = settings.get("boundary_color", "#2A2A2A")
         line_width = settings.get("boundary_width", "0.25")
 
+    def _boundary(self, x_vec, mu_vec1, mu_vec2):
+        g1 = (x_vec - mu_vec1).T.dot((x_vec - mu_vec1))
+        g2 = 2 * ((x_vec - mu_vec2).T.dot((x_vec - mu_vec2)))
+        return g1 - g2
 
+
+    def positive_rates(self, tpr_array, fpr_array, yscale=list([0., 1.])):
+        line0 = graphs.Scatter(y=fpr_array, markers="line")
+        line1 = graphs.Scatter(y=tpr_array, markers="line")
+
+
+
+
+    def cross_validations(self, cv_array):
+        xvals = [i for i in range(len(cv_array))]
+        yvals = cv_array
